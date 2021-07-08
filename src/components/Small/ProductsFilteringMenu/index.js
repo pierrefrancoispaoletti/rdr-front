@@ -43,7 +43,9 @@ const ProductsFilteringMenu = ({
                 text={subCategory.name}
                 onClick={() => setActiveMenu(subCategory.slug)}
               >
-                <Dropdown.Menu>
+                <Dropdown.Menu
+                  direction={activeMenu === "blancs" && subCategory.slug === "blancs" && "left" }
+                >
                   {subCategory.subCat.map((sc) => (
                     <Dropdown.Item
                       key={sc.slug}
