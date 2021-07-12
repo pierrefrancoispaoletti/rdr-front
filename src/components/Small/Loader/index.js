@@ -5,7 +5,7 @@ const Loader = () => {
     
     return (
         <div className="loader">
-            <img className="loader-img" src="./assets/images/logo.png" alt=""/>
+            <img className="loader-img" src="./assets/images/logo.svg" alt=""/>
         </div>
     );
 }

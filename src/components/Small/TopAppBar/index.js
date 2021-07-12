@@ -15,7 +15,7 @@ const TopAppBar = ({
     <div className="topappbar">
       <Link to="/" onClick={() => setSelectedCategory({})}>
         <div className="topappbar-image">
-          <img width="100px" src="./assets/images/logo.png" alt="logo RDR" />
+          <img width="100px" src="./assets/images/logo.svg" alt="logo RDR" />
         </div>
       </Link>
       <div className="topappbar-icons">

@@ -181,7 +181,7 @@ const Home = ({
       )}
       {event && Object.keys(event).length === 0 && (
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <img height="280px" src="./assets/images/logo.png" alt="logo RDR" />
+          <img height="280px" src="./assets/images/logo.svg" alt="logo RDR" />
         </div>
       )}
     </Container>

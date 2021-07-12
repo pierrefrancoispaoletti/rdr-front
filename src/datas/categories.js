@@ -62,7 +62,7 @@ const categories = [
       },
       {
         name: "Les Desserts",
-        slug: "dessert",
+        slug: "desserts",
         icon: (
           <FontAwesomeIcon
             size="3x"

@@ -53,7 +53,7 @@ const CategoriesSidebar = ({
             <Link to={`/`} onClick={() => setSelectedCategory({})}>
               <Menu.Item className="categories-sidebar-item">
                 <Menu.Header>
-                  <img width="100px" src="./assets/images/logo.png" alt="" />
+                  <img width="100px" src="./assets/images/logo.svg" alt="" />
                 </Menu.Header>
               </Menu.Item>
             </Link>
