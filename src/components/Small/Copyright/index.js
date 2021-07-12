@@ -27,7 +27,7 @@ const Copyright = ({
         </Header>
       </div>
       <div className="footer__icons">
-        <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
+        <a target="_blank" href="https://www.facebook.com/RoideRomeajaccio" rel="noreferrer">
           <FontAwesomeIcon
             style={{
               color: "#3B5998",
@@ -55,7 +55,7 @@ const Copyright = ({
         </Header>
       </div>
       <div className="footer__icons">
-        <a href={`mailto:`}>
+        <a href={`mailto:lerdrajaccio@gmail.com`}>
           <FontAwesomeIcon
             style={{
               "--fa-primary-color": "black",
@@ -67,7 +67,7 @@ const Copyright = ({
             pull="left"
           />
         </a>
-        <a href={`tel:`}>
+        <a href={`tel:0646630266`}>
           <FontAwesomeIcon
             style={{
               "--fa-primary-color": "firebrick",
