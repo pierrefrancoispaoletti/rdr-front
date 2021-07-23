@@ -4,7 +4,7 @@ import { Translator, Translate } from "react-auto-translate";
 import React from "react";
 import { Header } from "semantic-ui-react";
 import "./productitem.css";
-import { GOOGLE_API_KEY } from "../../../_const/_const";
+import { GOOGLE_API_KEY, tokenName } from "../../../_const/_const";
 
 const ProductItem = ({
   product,
@@ -27,15 +27,15 @@ const ProductItem = ({
 
   const cacheProvider = {
     get: (language, key) =>
-      ((JSON.parse(localStorage.getItem("translations")) || {})[key] || {})[
+      ((JSON.parse(localStorage.getItem(`${tokenName}-translations`)) || {})[key] || {})[
         language
       ],
     set: (language, key, value) => {
-      const existing = JSON.parse(localStorage.getItem("translations")) || {
+      const existing = JSON.parse(localStorage.getItem(`${tokenName}-translations`)) || {
         [key]: {},
       };
       existing[key] = { ...existing[key], [language]: value };
-      localStorage.setItem("translations", JSON.stringify(existing));
+      localStorage.setItem(`${tokenName}-translations`, JSON.stringify(existing));
     },
   };
 

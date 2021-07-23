@@ -5,7 +5,6 @@ import {
   faGlassCitrus,
   faGlassWhiskeyRocks,
   faHatChef,
-  faMeat,
   faPepperHot,
   faSalad,
   faWineBottle,

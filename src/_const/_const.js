@@ -2,6 +2,6 @@
 
 export const $SERVER = "https://le-rdr.herokuapp.com";
 
-export const GOOGLE_API_KEY = "AIzaSyAZaWwVgn5z9gNPy0cbweEVGUeWwva5GGM";
+export const GOOGLE_API_KEY = "AIzaSyBk9HYYrfPI-3YKfFoLjsOiKBJjhTqfN2g";
 
 export const tokenName = "le-RDR"

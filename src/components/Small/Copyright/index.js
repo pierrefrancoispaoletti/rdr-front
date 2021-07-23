@@ -67,7 +67,7 @@ const Copyright = ({
             pull="left"
           />
         </a>
-        <a href={`tel:0646630266`}>
+        <a href={`tel:0495238438`}>
           <FontAwesomeIcon
             style={{
               "--fa-primary-color": "firebrick",
